@@ -1,0 +1,22 @@
+
+<!--  try removing groups and check which method it runs
+if we dont mention class name in xml file then code will not be executed if we run testng.xml -->
+<suite name="Suit1">
+         
+		<test name="Group Demo">	
+			 
+			<groups>	
+				<run>	
+   					<include name="Group1" />		
+   					  <include name="Group2" />	
+        		</run>	
+       		</groups>	
+       		
+			<classes>	
+					<class name="suite1.GP" />	
+           	</classes>
+			
+           		
+		</test>	
+   
+</suite>
